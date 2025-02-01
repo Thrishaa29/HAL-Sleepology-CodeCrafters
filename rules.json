@@ -1,0 +1,20 @@
+{
+    "sleep_duration": {
+        "low": {"threshold": 6, "message": "Your sleep duration is too short. Aim for 7-9 hours."},
+        "high": {"threshold": 9, "message": "You may be oversleeping. Maintain 7-9 hours."}
+    },
+    "screen_time": {
+        "limit": 2,
+        "message": "Reduce screen time before bed to improve sleep quality."
+    },
+    "caffeine": {
+        "after_6pm": "Avoid caffeine after 6 PM to prevent sleep disturbances."
+    },
+    "wake_ups": {
+        "threshold": 2,
+        "message": "Frequent wake-ups indicate poor sleep quality. Improve bedtime habits."
+    },
+    "stress": {
+        "high": "High stress can affect sleep. Practice relaxation techniques."
+    }
+}
